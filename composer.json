@@ -1,0 +1,20 @@
+{
+    "name": "buglivre/api",
+    "description": "Projeto de api",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/"
+        },
+
+        "files": ["config/app.php"]
+    },
+    "authors": [
+        {
+            "name": "Bug Livre Oficial"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
