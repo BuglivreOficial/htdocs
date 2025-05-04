@@ -1,0 +1,17 @@
+# Ignorar diretórios comuns
+node_modules/
+vendor/
+dist/
+build/
+
+# Ignorar arquivos temporários e de sistema
+.DS_Store
+*.log
+*.tmp
+*.bak
+
+# Ignorar configurações de IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
